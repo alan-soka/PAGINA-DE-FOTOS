@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 40rem;
+    height: 40rem;
+    text-align: center;
+    background-color: azure;
+}
+
+
+
+
+
+
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url(relampago.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
