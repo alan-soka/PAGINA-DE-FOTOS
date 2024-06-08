@@ -4,36 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
     <title>pagina de fotos, juanes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../estilos/style.css">
 </head>
 
 <body>
-    <form action="/login" method="post">
 
-        <div class="caja-email">
-            <label for="email">Correo Electrónico</label>
+<header>
+    <h1>
+      portafolio de fotografias
+    </h1>
+</header>
+    <form action="/login" method="post">
+        <h2>accede a tu cuenta</h2>
+        <div class="CajaEmail">
+            <label for="InputEmail">Correo Electrónico</label>
             <br>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="InputEmail" name="email" required>
         </div>
-        <br>
-        <div class="caja-contraseña">
-            <label for="Contraseña">Contraseña</label>
+        <div class="CajaContraseña">
+            <label for="InputContraseña">Contraseña</label>
             <br>
-            <input type="password" id="Contraseña" name="Contraseña" required>
+            <input type="password" id="InputContraseña" name="Contraseña" required>
         </div>
-        <br>
-        <div class="caja-contrato" >
+        <div class="CajaContrato">
             <input type="checkbox" name="contrato" id="contrato">
-            <label for="contrato"  >
+            <label for="contrato">
                 <a href="https://www.youtube.com/watch?v=o3BFNUtGw7Y"> terminos y condiciones</a></label>
         </div>
         <button type="submit">Ingresar</button>
     </form>
-
-
-
-
+    <footer>pagina hecha por alan.soka</footer>
 </body>
 
 </html>

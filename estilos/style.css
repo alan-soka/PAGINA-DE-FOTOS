@@ -1,27 +1,97 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
+header {
+    margin-top: 10%;
+    text-align: center;
+    position: absolute;
+    margin-right: auto;
+    width: 40%;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    background-color: aqua;
+    height: 110vh;
+    background-image: url(/fondo1.jpg);
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 form {
-    width: 40rem;
-    height: 40rem;
+    width: 30rem;
+    height: 100vh;
+    margin-left: auto;
+    backdrop-filter: blur(30px);
     text-align: center;
-    background-color: azure;
 }
 
-.caja-email,
-.caja-contraseña,
-.caja-contrato
-{
+h1 {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px rgb(255, 183, 0);
+}
+
+h2 {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    color: rgb(255, 255, 255);
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+}
+
+label {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.6rem;
+    color: #cfb593;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #cfb593;
+}
+
+.CajaEmail,
+.CajaContraseña {
     width: 100%;
-    height: 10rem;
+    height: 15%;
+}
+
+#InputEmail,
+#InputContraseña {
+    width: 45%;
+    height: 20%;
+    border-radius: 5px;
+    background-color: #ffffff74;
+}
+
+button {
+    width: 30%;
+    height: 6%;
+    background-color: #5c4435;
+    color: white;
+    border-radius: 5px;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #a28e73;
+    color: black;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+    background-color: #2e1e13;
 }
