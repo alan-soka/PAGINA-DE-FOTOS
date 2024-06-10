@@ -19,10 +19,10 @@ body {
 }
 
 form {
-    width: 30rem;
+    width: 40rem;
     height: 100vh;
     margin-left: auto;
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
     text-align: center;
 }
 
@@ -30,9 +30,9 @@ h1 {
     font-family: "UnifrakturMaguntia", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 6rem;
+    font-size: 9rem;
     color: rgb(255, 255, 255);
-    text-shadow: 10px 10px 10px rgb(255, 183, 0);
+    text-shadow: 10px 10px 5px rgb(231, 134, 0);
 }
 
 h2 {
@@ -42,20 +42,20 @@ h2 {
     font-family: "Rye", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 2.2rem;
+    font-size: 3rem;
 }
 
 label {
     font-family: "Amita", serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #cfb593;
 }
 
 a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #cfb593;
 }
 
@@ -67,14 +67,14 @@ a {
 
 #InputEmail,
 #InputContraseña {
-    width: 45%;
-    height: 20%;
+    width: 50%;
+    height: 25%;
     border-radius: 5px;
     background-color: #ffffff74;
 }
 
 button {
-    width: 30%;
+    width: 35%;
     height: 6%;
     background-color: #5c4435;
     color: white;
