@@ -14,19 +14,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
     <title>pagina de fotos, juanes</title>
-    <link rel="stylesheet" href="/index.htmlSeguir vínculo (ctrl + clic)">
+    <link rel="stylesheet" href="/estilos/style.css">
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <body>
 
-<header>
-    <h1>
-      portafolio de fotografias
-    </h1>
-</header>
-    <form action="/indexes/principal.html" method="get">
+    <header>
+        <h1>
+            portafolio de fotografias
+        </h1>
+    </header>
+    <form action="/indexes/auth.html" method="get">
         <h2>accede a tu cuenta</h2>
         <div class="CajaEmail">
             <label for="InputEmail">Correo Electrónico</label>
@@ -36,11 +36,15 @@
         <div class="CajaContraseña">
             <label for="InputContraseña">Contraseña</label>
             <br>
-            <input type="password" id="InputContraseña" name="Contraseña" required>
+            <input type="password" id="InputContraseña" name="contraseña" required>
         </div>
         <div class="CajaContrato">
-            <input type="checkbox" name="contrato" id="contrato">
-            <label  for="contrato"><a href="/indexes/principal.html">terminos y condiciones</a></label>
+            <input type="checkbox" name="contrato" id="contrato" required>
+            <label for="contrato"><a href="/indexes/dashborad.html">terminos y condiciones</a></label>
         </div>
-            <button type="submit">Ingresar </button>
+        <button type="submit">Ingresar </button>
     </form>
+    <footer>pagina hecha por alan soka</footer>
+</body>
+
+</html>

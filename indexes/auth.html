@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticación</title>
+</head>
+<body>
+    <h2>Verificando tus credenciales...</h2>
+
+    <script>
+        // Lista de usuarios válidos (solo para demostración)
+        var usuariosValidos = {
+            "suario1@example.com": "contraseña123",
+            "usuario2@example.com": "contraseña456"
+        };
+
+        // Función para validar las credenciales del usuario
+        function validarUsuario(email, contraseña) {
+            return usuariosValidos[email] == contraseña;
+        }
+
+        // Obtener el email y la contraseña de la URL
+        var urlParams = new URLSearchParams(window.location.search);
+        var email = urlParams.get('email');
+        var contraseña = urlParams.get('contraseña');
+
+        // Verificar si las credenciales son válidas
+        if (validarUsuario(email, contraseña)) {
+            // Redirigir a la página del dashboard si son válidas
+            window.location.href = "/indexes/dashboard.html";
+        } else {
+            // Mostrar un mensaje de error si no son válidas
+            document.body.innerHTML = "<h2>Credenciales inválidas. Por favor, inténtelo de nuevo.</h2>";
+        }
+        
+    </script>
+</body>
+</html>
