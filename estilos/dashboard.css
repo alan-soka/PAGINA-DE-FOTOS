@@ -10,8 +10,16 @@ body {
     backdrop-filter: blur(50px);
     overflow-x: hidden;
     width: 100%;
-    height: 110vh;
+    height: 116vh;
 }
+
+.titulo {
+    width: 100%;
+    height: 6vh;
+    background-color: aquamarine;
+    text-align: center;
+}
+
 
 #boton {
     display: none;
@@ -46,7 +54,7 @@ li:hover {
 
 .padre {
     display: flex;
-    height: 90%;
+    height: 100vh;
 }
 
 
@@ -73,5 +81,33 @@ footer {
     bottom: 0 auo;
     background-color: rgba(49, 49, 49, 0.845);
     width: 100%;
-    height: 10%;
+    height: 10vh;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    #nav {
+        display: none;
+        text-align: center;
+    }
+
+    .titulo {
+        background-color: rgb(109, 97, 116);
+        display: flex;
+        margin: auto;
+
+    }
+
+    .menu {
+        background-color: blueviolet;
+    }
+
+    i {
+        margin: 50%;
+        font-size: 2rem;
+
+    }
+
 }

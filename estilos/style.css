@@ -41,6 +41,7 @@ h1 {
         opacity: 0;
         transform: translateY(100%);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -111,12 +112,38 @@ footer {
     height: 10vh;
     text-align: center;
     background-color: #2e1e13;
+    color: azure;
+    font-size: 2rem;
+
 }
 
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
+
+    header {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+
+    form {
+        width: 70%;
+        height: 50%;
+        min-width: 400px;
+        justify-items: center;
+        margin: auto;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.288);
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 5rem;
+    }
+    h2{
+font-size: 2.5rem;
+    }
+
+
     
-body
-
-
-} */
+}
