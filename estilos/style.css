@@ -11,7 +11,7 @@ body {
     padding: 0;
     width: 100%;
     height: 110vh;
-    background-image: url(/resurces/fondo1.jpg);
+    background-image: url(resurces/fondo1.jpg);
     background-size: cover;
     font-family: 'Arial', sans-serif;
     display: flex;

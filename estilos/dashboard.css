@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(/resurces/retro.gif);
+    background-image: url(../resurces/retro.gif);
     background-size: cover;
     background-repeat: no-repeat;
     backdrop-filter: blur(50px);
@@ -75,7 +75,6 @@ img {
     height: 23rem;
     width: 23rem;
     margin: 1rem;
-    background-image: url(resurces/relampago2.png);
     background-size: contain;
     background-repeat: no-repeat;
     transition: 0.2s;
