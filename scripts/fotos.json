@@ -1,0 +1,40 @@
+{
+    "imagenes": {
+        "street": [
+            {
+                "id": "street-1",
+                "url": "resurces/street/street-1.jpg"
+            },
+            {
+                "id": "street-2",
+                "url": "resurces/street/street-2.jpg"
+            },
+            {
+                "id": "street-3",
+                "url": "resurces/street/street-3.jpg"
+            },
+            {
+                "id": "street-4",
+                "url": "resurces/street/street-4.jpg"
+            }
+        ],
+        "cosmos": [
+            {
+                "id": "cosmos-1",
+                "url": "resurces/cosmos/cosmos-1.webp"
+            },
+            {
+                "id": "cosmos-2",
+                "url": "resurces/cosmos/cosmos-2.webp"
+            },
+            {
+                "id": "cosmos-3",
+                "url": "resurces/cosmos/cosmos-3.webp"
+            },
+            {
+                "id": "cosmos-4",
+                "url": "resurces/cosmos/cosmos-4.jpg"
+            }
+        ]
+    }
+}
