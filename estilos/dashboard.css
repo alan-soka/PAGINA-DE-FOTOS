@@ -58,6 +58,7 @@ li:hover {
 }
 
 .contenedor {
+    background-color: aqua;
     overflow-x: hidden;
 }
 
@@ -67,7 +68,7 @@ li:hover {
 }
 
 
-div {
+img {
 
     border-radius: 0.5rem;
     display: inline-block;
@@ -80,7 +81,7 @@ div {
     transition: 0.2s;
 }
 
-div:hover {
+img:hover {
     transform: scale(1.05);
 }
 

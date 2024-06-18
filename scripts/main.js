@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const contenedor = document.getElementById('contenedor');
     const links = document.querySelectorAll('nav ul li a[data-category]');
 
-    // Cargar datos desde el archivo JSON
-    fetch('fotos.json')
+
+    fetch('../scripts/fotos.json')
         .then(response => response.json())
         .then(data => {
             links.forEach(link => {
